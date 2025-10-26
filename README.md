@@ -78,5 +78,5 @@ for student_index in range(len(students)):
 if attendance[student_index][day_index] == "A":
 students_present = students_present + 1
     
-    percentage = (students_present * 100) / len(students)
-    print(days[day_index] + ": " + str(students_present) + "/" + str(len(students)) + " students (" + str(percentage) + "%)")
+percentage = (students_present * 100) / len(students)
+print(days[day_index] + ": " + str(students_present) + "/" + str(len(students)) + " students (" + str(percentage) + "%)")
